@@ -1,0 +1,48 @@
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:#1b1b1b;color:white;font-family:system-ui;overflow-x:hidden}
+.container{max-width:600px;margin:auto;padding:20px}
+
+.top{display:flex;gap:15px;align-items:center}
+.icon{width:80px;height:80px;border-radius:18px}
+
+.button-container{margin:40px auto;position:relative;width:200px;height:60px}
+.glow-ring{position:absolute;width:200px;height:60px;border-radius:40px;background:linear-gradient(45deg,#ff0000,#ff00f2,#0066ff,#00ffd5,#ff0000);background-size:400%;filter:blur(12px);animation:glow 8s linear infinite}
+.downloadBtn{position:absolute;width:190px;height:50px;top:5px;left:5px;background:black;border-radius:40px;display:flex;align-items:center;justify-content:center;font-weight:bold;cursor:pointer}
+
+@keyframes glow{0%{background-position:0%}100%{background-position:400%}}
+
+.screenshots{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:25px}
+.screenshots img{width:100%;border-radius:12px;cursor:pointer}
+
+.section{margin-top:35px}
+
+.accordionHeader{display:flex;align-items:center;gap:8px;cursor:pointer}
+.accordionHeader h2{margin:0;font-size:20px}
+#arrow{font-size:16px;transition:.3s}
+
+.accordionContent{max-height:0;overflow:hidden;transition:max-height .4s}
+
+.details{background:#2a2a2a;border-radius:12px;padding:12px;margin-top:10px}
+.details p{display:flex;justify-content:space-between;border-bottom:1px solid #444;padding:6px 0;margin:0}
+.details p:last-child{border:none}
+
+.popup{position:fixed;top:0;left:0;width:100%;height:100%;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.9)}
+.popup img{max-width:90%;max-height:90%}
+
+.wave{position:fixed;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.4),transparent);transform:scale(0);animation:wave 1s forwards}
+@keyframes wave{0%{transform:scale(0);opacity:1}100%{transform:scale(6);opacity:0}}
+
+/* remove blue highlight and focus */
+
+a,button,img,div,span{
+-webkit-tap-highlight-color:transparent;
+outline:none;
+}
+
+:focus{
+outline:none;
+}
+
+::selection{
+background:transparent;
+}

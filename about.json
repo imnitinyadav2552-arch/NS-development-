@@ -1,0 +1,10 @@
+{
+"name":"CobraWeb Browser",
+"version":"1.0.0",
+"android_support":"Android 5.0+",
+"package":"com.cobra.web",
+"architecture":"Universal (ARMv7 + ARM64)",
+"permissions":"Storage, Notification, Network Access",
+"apk":"app.apk",
+"about":"About CobraWeb\n\nCobraWeb is a lightweight, secure, and high performance web browser designed for users who prioritize privacy and speed. Built with a minimalist approach, it provides a seamless browsing experience without unnecessary clutter.\n\nKey Features\n\nAdvanced Encryption: Your privacy is our priority. CobraWeb uses AES-256 Encryption to secure your search history and browsing data, ensuring that your information remains private and inaccessible to unauthorized eyes.\n\nSmart Tab Management: Experience true multitasking with a professional tab system. You can switch between multiple websites easily with real time visual snapshots of your active pages.\n\nDynamic UI Interface: CobraWeb includes a toggleable toolbar that allows users to switch between top and bottom navigation layouts instantly to match their browsing comfort.\n\nIntegrated Download Manager: The browser includes a powerful built in download system that allows you to track download progress in real time with a clean and non intrusive popup interface.\n\nEncrypted History and Search: Every search term and visited website URL is stored in a highly secure encrypted format inside the internal system so you remain in full control of your browsing history.\n\nUser Profiles: Personalize your browsing experience with a dedicated profile section where users can add their profile information and manage their settings securely.\n\nDeveloper Credits\n\nDeveloped by NS Development, CobraWeb is focused on delivering a fast, secure and modern browsing experience for everyone."
+}
